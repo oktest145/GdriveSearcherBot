@@ -6,5 +6,5 @@ API_HASH = os.environ.get("API_HASH", "1affe5d43671e10d86514330afe05028")
 RESULTS_COUNT = int(os.environ.get("RESULTS_COUNT", 4))  # NOTE Number of results to show, 4 is better
 SUDO_CHATS_ID = list(set(int(x) for x in os.environ.get("SUDO_CHATS_ID", "-1001136335119 -1001491774644").split()))
 DRIVE_NAME = list(set(x for x in os.environ.get("TorrentLeech-Gdrive,"Leecher bot","Mirror-2").split(",")))
-DRIVE_ID = list(set(x for x in os.environ.get("DRIVE_ID","1V7gapOG9FvvVqv7qj2IfpBhY119JaWaO 1cSgDNRvzr3TCBTqnH49igl3T0GbZrggd 1UvV8A75hwAbAX0iXXhTOnA0DoSe4Y653").split()))
-INDEX_URL = list(set(x for x in os.environ.get("INDEX_URL", "https://drive-index.gujjuironman.workers.dev/0: https://drive-index.gujjuironman.workers.dev/1: https://drive-index.gujjuironman.workers.dev/2:").split()))
+DRIVE_ID = list(set(x for x in os.environ.get("DRIVE_ID","").split()))
+INDEX_URL = list(set(x for x in os.environ.get("INDEX_URL", "").split()))
